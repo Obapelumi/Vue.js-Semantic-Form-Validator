@@ -2,9 +2,12 @@
   "name": "vue-semantic-form-validator",
   "version": "0.1.0",
   "description": "Vue.js Based Form Validator which leverages existing HTML form validation rules so you don't always have to write yours",
+  "files": ["dist/*"],
+  "main": "dist/formValidator.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name formValidator"
   },
   "dependencies": {
     "vue": "^2.6.10"

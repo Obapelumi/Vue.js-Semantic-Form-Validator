@@ -22,7 +22,7 @@ npm install --save vue-semantic-form-validator
 
 ``` html
   <v-form id="v-form" @submit="submitFunction()" @error="errorFunction">
-    <template v-slot.fields="vForm">
+    <template v-slot:fields="vForm">
       <input type="text" required name="name" v-model="book.name" />
 
       <input type="text" required name="author" v-model="book.author" title="Please fill out the author" />

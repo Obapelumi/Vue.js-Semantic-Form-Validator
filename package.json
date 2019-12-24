@@ -1,7 +1,7 @@
 {
-  "name": "vue-form-validator",
+  "name": "vue-semantic-form-validator",
   "version": "0.1.0",
-  "private": true,
+  "description": "Vue.js Based Form Validator which leverages existing HTML form validation rules so you don't always have to write yours",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -13,6 +13,22 @@
     "@vue/cli-service": "^4.1.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obapelumi/Vue.js-Semantic-Form-Validator.git"
+  },
+  "keywords": [
+    "vue.js",
+    "html",
+    "html pattern",
+    "javascript"
+  ],
+  "author": "Obapelumi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obapelumi/Adonis.js-Google-Cloud-Storrage/issues"
+  },
+  "homepage": "https://github.com/Obapelumi/Adonis.js-Google-Cloud-Storrage#readme",
   "browserslist": [
     "> 1%",
     "last 2 versions"
